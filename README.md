@@ -34,4 +34,11 @@ Output: 2
 All points are distinct.
 
 ### My Solution Strategy
+1. Find mapping for all x to {y1, y2, ...} and all y to {x1, x2, ...} with one pass.
+2. Choose the x or y mapping for next step: the one with less keys.
+3. Iterate through all combinations of key pairs (for example, we choosed mapping of x in last step)
+4. For each pair of (x1, x2), sort the intersection of the 2 set: mapping[x1], mapping[x2], find the least gap amongst all the adjacent y and calculate the area (|x1-x2| * (y2-y1))
+5. Return the minimum area
 
+### Time complexity
+O(n<sup>2</sup>)) worst case
