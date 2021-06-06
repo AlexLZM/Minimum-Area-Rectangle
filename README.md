@@ -41,4 +41,4 @@ All points are distinct.
 5. Return the minimum area
 
 ### Time complexity
-O(n<sup>2</sup>)) worst case
+O(n<sup>2</sup>), worst case
