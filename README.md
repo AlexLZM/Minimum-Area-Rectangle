@@ -13,7 +13,7 @@ If there isn't any rectangle, return 0.
 Input: [[1,1],[1,3],[3,1],[3,3],[2,2]]
 
 Output: 4
-![Clustering of ring shape data](./images/2661623020994_.pic.jpg=250x250)
+<img src="./images/2661623020994_.pic.jpg" alt="drawing" width="300" height="300"/>
 
 
 ### Example 2:
